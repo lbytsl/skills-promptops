@@ -1,0 +1,30 @@
+name: Bug report / 缺陷报告
+description: Report incorrect routing, evaluation, or documentation / 报告错误的路由、评估或文档
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: artifact
+    attributes:
+      label: Prompt or artifact / Prompt 或相关材料
+      description: Remove secrets and personal data. / 请移除密钥和个人数据。
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior / 实际行为
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior and evidence / 预期行为与证据
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: PromptOps version / PromptOps 版本
+    validations:
+      required: true

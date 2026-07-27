@@ -1,0 +1,7 @@
+interface:
+  display_name: "PromptOps"
+  short_description: "Engineer, evaluate, and test reliable prompts"
+  default_prompt: "Use $promptops to evaluate this prompt, identify reliability risks, and propose a testable improvement."
+
+policy:
+  allow_implicit_invocation: true
