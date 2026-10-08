@@ -1,0 +1,5 @@
+# Release build artifacts (uploaded as GitHub Release / SkillHub assets, not committed)
+release-assets/
+
+# macOS
+.DS_Store

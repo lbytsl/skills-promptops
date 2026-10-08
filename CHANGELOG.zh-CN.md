@@ -4,7 +4,7 @@
 
 所有重要变更遵循 Keep a Changelog 和语义化版本规范。
 
-## [未发布]
+## [v0.2.0] - 2026-10-08
 
 ### 新增
 
@@ -19,3 +19,9 @@
 - 将 PromptOps 从 Prompt 生成重新定位为 Prompt Quality 与 AI Agent Reliability 项目。
 - 分离静态就绪程度与实际执行的 Benchmark 证据。
 - 将 Codex 元数据定义为可选适配器，并记录 Claude Code、Trae、WorkBuddy 和自定义 Agent 的兼容方式。
+
+## [未发布]
+
+### 新增
+
+### 变更
