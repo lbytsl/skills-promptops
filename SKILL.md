@@ -1,6 +1,11 @@
 ---
 name: promptops
+version: 0.2.0
+display_name: PromptOps 提示词质量与可靠性
+display_name_en: PromptOps
 description: Evaluate, improve, compare, and test prompts for reliable LLM applications and AI agents. Use when a user asks to audit prompt quality, diagnose hallucination or instruction-conflict risks, optimize a system prompt, compare prompt versions, generate prompt test cases, define release gates, or engineer prompts for RAG, agents, coding, structured output, and other LLM workflows. Also use to create a new prompt when the user needs a production-ready specification rather than simple copywriting.
+description_zh: 将提示词视为可测试的工程制品,提供评测、改进、对比、测试与发布门禁的完整工作流,覆盖 RAG、Agent、编码、结构化输出与高风险场景,无专有运行时依赖,兼容 Claude Code、Codex、Trae、WorkBuddy 等智能体。
+description_en: Treat prompts as testable engineering artifacts. Provides evaluate/improve/compare/test/release workflows for RAG, agents, coding, and structured-output tasks, with no proprietary runtime dependency.
 ---
 
 # PromptOps
